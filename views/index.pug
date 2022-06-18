@@ -1,0 +1,34 @@
+//Oh hi, didn't expect you here. Visit https://github.com/Kudostoy0u/portfolio if you want to see the source code
+doctype html
+html(lang="en")
+  head
+    include lib.pug
+    <|index.min.css|>
+    title Stellar
+  body
+    include transition.pug
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css")
+    nav
+      div.magic-hover.magic-hover__square
+        a.nav-link.complement(href='#') Home 
+      div.magic-hover.magic-hover__square
+        a.nav-link.complement(href="https://toosickmusic.repl.co/") TooSick Music
+    h1.text-white.display-1.text-center.large Stellar
+    br 
+    .content
+      .content__container
+        ul.content__container__list.text-center.display-flex
+          li.content__container__list__item Noob
+          li.content__container__list__item Weeb
+          li.content__container__list__item Idiot
+          li.content__container__list__item Red Bull doesn't give you wiiings!
+    .d-flex.flex-row.text-center.justify-content-center.icons
+      div.p-2.tilt
+          a(href="https://discord.com/users/953205509203296316" target="_blank")
+            i.fab.fa-discord-square.text-white
+      div.p-2.tilt
+        a(href="https://github.com/YoBoiStellar" target="_blank")
+          i.fab.fa-github-square.text-white
+    <|mouse.js|>
+    script(src="//cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js")
+    <|net.js|>
